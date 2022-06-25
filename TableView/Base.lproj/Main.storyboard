@@ -41,27 +41,29 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="byc-5s-xWy">
-                                                    <rect key="frame" x="69.5" y="200" width="61.5" height="48.5"/>
+                                                    <rect key="frame" x="10" y="210" width="180" height="28.5"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TFK-g8-fS3">
-                                                    <rect key="frame" x="67" y="258.5" width="66.5" height="31.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TFK-g8-fS3">
+                                                    <rect key="frame" x="10" y="248.5" width="180" height="31.5"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                                     <color key="textColor" systemColor="systemPinkColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="TFK-g8-fS3" firstAttribute="centerX" secondItem="byc-5s-xWy" secondAttribute="centerX" id="9Tg-R1-AsG"/>
-                                                <constraint firstItem="byc-5s-xWy" firstAttribute="centerX" secondItem="FQ5-HM-sOY" secondAttribute="centerX" id="BXX-EN-4gz"/>
+                                                <constraint firstAttribute="trailing" secondItem="TFK-g8-fS3" secondAttribute="trailing" constant="10" id="0db-s7-BGB"/>
                                                 <constraint firstItem="MhK-tc-v2p" firstAttribute="top" secondItem="FQ5-HM-sOY" secondAttribute="top" constant="10" id="Dex-0L-fvZ"/>
-                                                <constraint firstAttribute="bottom" secondItem="TFK-g8-fS3" secondAttribute="bottom" constant="10" id="ESg-jH-feV"/>
+                                                <constraint firstAttribute="bottom" secondItem="TFK-g8-fS3" secondAttribute="bottom" constant="20" id="ESg-jH-feV"/>
+                                                <constraint firstAttribute="trailing" secondItem="byc-5s-xWy" secondAttribute="trailing" constant="10" id="TUp-wD-w25"/>
                                                 <constraint firstItem="MhK-tc-v2p" firstAttribute="leading" secondItem="FQ5-HM-sOY" secondAttribute="leading" constant="10" id="Znn-KC-S79"/>
-                                                <constraint firstItem="byc-5s-xWy" firstAttribute="top" secondItem="MhK-tc-v2p" secondAttribute="bottom" constant="10" id="fTS-zH-wdn"/>
+                                                <constraint firstItem="TFK-g8-fS3" firstAttribute="leading" secondItem="FQ5-HM-sOY" secondAttribute="leading" constant="10" id="dPT-MB-2Ab"/>
+                                                <constraint firstItem="byc-5s-xWy" firstAttribute="top" secondItem="MhK-tc-v2p" secondAttribute="bottom" constant="20" id="fTS-zH-wdn"/>
                                                 <constraint firstAttribute="trailing" secondItem="MhK-tc-v2p" secondAttribute="trailing" constant="10" id="pOk-zX-JHN"/>
                                                 <constraint firstItem="TFK-g8-fS3" firstAttribute="top" secondItem="byc-5s-xWy" secondAttribute="bottom" constant="10" id="rXZ-aQ-IgW"/>
+                                                <constraint firstItem="byc-5s-xWy" firstAttribute="leading" secondItem="FQ5-HM-sOY" secondAttribute="leading" constant="10" id="wPN-hX-t68"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <color key="tintColor" systemColor="systemGrayColor"/>
